@@ -1,0 +1,34 @@
+🔧 Project Summary: Cybersecurity Notes Site with Raspberry Pi & GitHub
+You are building a self-hosted cybersecurity notes website using a Raspberry Pi as a lightweight web server and GitHub as the source control and content repository. The site is powered by Hugo (a static site generator) and styled using the PaperMod theme.
+
+🎯 Goals:
+Serve a personal cybersecurity knowledge base/blog.
+
+Enable easy version control and updates via GitHub.
+
+Automatically sync and serve updated content from GitHub to the Raspberry Pi.
+
+Provide a clean, fast, and dark-themed interface optimized for technical documentation.
+
+🧩 Key Components:
+Raspberry Pi: Acts as the local web server hosting the static website.
+
+GitHub Repo: Stores your Markdown-based cybersecurity notes and Hugo config.
+
+Hugo + PaperMod: Generates a clean, responsive static website from your notes.
+
+Shell Script (sync-and-serve.sh): Automates pulling updates from GitHub and regenerating the site on the Pi.
+
+🔄 Workflow:
+You write/edit your cybersecurity notes in Markdown and push them to GitHub.
+
+Your Raspberry Pi regularly (or manually) runs a script to:
+
+Pull changes from GitHub.
+
+Rebuild the site using Hugo.
+
+Serve the updated site locally or to your network.
+
+Anyone with access to your Pi’s IP or domain (if configured) can browse your notes.
+
