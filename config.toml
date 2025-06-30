@@ -1,0 +1,19 @@
+baseURL = "http://192.168.66.181"
+languageCode = "en-us"
+title = "Cybersecurity Notes"
+theme = "PaperMod"
+
+[params]
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowSidebar = true
+  defaultTheme = "dark"
+
+[menu]
+  [[menu.main]]
+    identifier = "notes"
+    name = "📝 Notes"
+    url = "/notes/"
+    weight = 1
