@@ -8,7 +8,7 @@ This is a collection of my personal cybersecurity notes, hosted live on my Raspb
 - 🔐 Vulnerability explanations
 - 💡 Tools usage (nmap, burpsuite, etc.)
 
-### ⚙️ Hosted On
+### ⚙️ Hosted On //till working on it
 - Raspberry Pi (Local Server)
 - Hugo Static Site Generator
 - NGINX Web Server
